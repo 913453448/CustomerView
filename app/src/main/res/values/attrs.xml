@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fadeText" format="string"/>
+    <attr name="changeColor" format="color"/>
+    <attr name="originColor" format="color"/>
+    <attr name="textSize" format="dimension"/>
+    <attr name="direction">
+        <enum name="left" value="1"/>
+        <enum name="right" value="2"/>
+    </attr>
+    <declare-styleable name="fadeView">
+        <attr name="fadeText"/>
+        <attr name="changeColor" />
+        <attr name="originColor" />
+        <attr name="textSize" />
+        <attr name="direction"/>
+    </declare-styleable>
+
+</resources>
