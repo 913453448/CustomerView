@@ -8,6 +8,7 @@ import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
+
 /**
  * Author:Yqy
  * Date:2016-07-26
@@ -62,6 +63,6 @@ public class CustomerView extends View{
         minRect.bottom = baseY + minRect.bottom;
         mPaint.setColor(Color.GREEN);
         mPaint.setStyle(Paint.Style.STROKE);
-        canvas.drawRect(minRect,mPaint);
+        canvas.drawRect(minRect, mPaint);
     }
 }
