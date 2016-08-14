@@ -15,5 +15,28 @@
         <attr name="textSize" />
         <attr name="direction"/>
     </declare-styleable>
-
+    <attr name="change_icon" format="reference"></attr>
+    <attr name="change_color" format="color"></attr>
+    <attr name="change_text" format="string"></attr>
+    <attr name="text_size" format="dimension"></attr>
+    <declare-styleable name="changeTextColor">
+        <attr name="change_icon"></attr>
+        <attr name="change_color"></attr>
+        <attr name="change_text"></attr>
+        <attr name="text_size"></attr>
+    </declare-styleable>
+    <!-- countdown view-->
+    <attr name="text" format="string"></attr>
+    <attr name="progress_color" format="color"></attr>
+    <attr name="center_bg" format="color"></attr>
+    <attr name="text_color" format="color"></attr>
+    <attr name="progress_width" format="dimension"></attr>
+    <declare-styleable name="count_down" >
+        <attr name="text" />
+        <attr name="progress_color" />
+        <attr name="center_bg" />
+        <attr name="text_color" />
+        <attr name="text_size"/>
+        <attr name="progress_width" />
+    </declare-styleable>
 </resources>

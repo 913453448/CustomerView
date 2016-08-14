@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id_circle_menu_item_image" type="id"></item>
+    <item name="id_circle_menu_item_text" type="id"></item>
+    <!-- stickyLayout ids-->
+    <item name="id_stickylayout_header" type="id"></item>
+    <item name="id_stickylayout_nav" type="id"></item>
+    <item name="id_stickylayout_viewpager" type="id"></item>
+    <item name="id_stickylayout_innerscrollview" type="id"></item>
+
+</resources>

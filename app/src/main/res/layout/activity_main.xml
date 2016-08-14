@@ -8,15 +8,13 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-
-    <com.cisetech.customer.customer.View.TabLayout2
+    <com.cisetech.customer.customer.View.MyTagView.TagLayout3
+        android:layoutAnimation="@anim/layoutanim"
         android:id="@+id/id_tab_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#eee"
         >
-
-    </com.cisetech.customer.customer.View.TabLayout2>
+    </com.cisetech.customer.customer.View.MyTagView.TagLayout3>
     </ScrollView>
 </LinearLayout>
